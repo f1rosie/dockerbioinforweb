@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- scCustomers.html 
+This is a comment. Comments are not displayed in the browser
+-->
+
+<html lang='en'>
+<head>
+    <meta charset="UTF-8" /> 
+    <title>
+        Customers.html
+    </title>
+    <link rel="stylesheet" type="text/css" HREF="StyleSheets.css" >
+</head>
+<body style="background-image:url(home.gif);background-size:2000px; opacity:1.0">
+<div style="background-color:white; opacity:0.90;">
+<h1 style="line-height: 6.0em; font-size: 30px; text-align: center;"> <!-- heading -->
+	<span style="color:darkblue">
+	<span style="font-weight: bold;">
+	<span style="font-family: sacramento,cursive;">
+	<span style="font-size: 40px;">
+	<span style="line-height: 1.3em;">
+		Use Team_06 Database
+	</span>
+	</span>
+	</span>
+	</span>
+	</span>
+
+		<button Type="button"  onclick="window.location.href='Bioinformationcsreport.html'">Go Back to Report Search Index</button>
+	</h1>
+
+	<br>
+	</div>	
+	
+<div style="background-color:White;opacity:0.90;line-height: 2.0em; font-size: 20px; text-align:center;">
+<hr>
+	<form id="form1" action="" method="get">
+
+	<p>Get a protein information: 
+	<input type="text" placeholder="Enter a UniPortKB_Entry" name="UniProtKB_Entry">
+	</p>
+	
+	<input type="submit" name="submit1" class="submit" value="Get data" />
+	</form>
+
+	
+	<hr>
+	<br>
+	<!--/* the class name is case sensitive.*/ -->
+	<table class="table1">
+	<!--table-->
+		<caption>
+			Targeted disease base on basic protein information 
+		</caption>
+		<!-- make the first row a column header row-->
+<tr>
+			<th> Targeted_Disease </th>
+			<th> UniProtKB_Entry </th>
+			<th> Protein_Name </th>
+			<th> Sequence_Length </th>
+			<th> Alternative_Name </th>
+			
+		</tr>
+		<tr>
+			<td> diabetes </td>
+			<td> P01308 </td>
+			<td> Insulin </td>
+			<td> 110 </td>
+			<td>  </td>
+		</tr>
+		<tr>
+			<td> diabetes </td>
+			<td> P20823 </td>
+			<td> Hepatocyte nuclear factor 1-alpha </td>
+			<td> 631 </td>
+			<td> Liver-specific transcription factor LF-B1,Transcription factor 1 </td>
+		</tr>
+		<tr>
+			<td> diabetes </td>
+			<td> P30518 </td>
+			<td> Vasopressin V2 receptor </td>
+			<td> 371 </td>
+			<td> Antidiuretic hormone receptor,Renal-type arginine vasopressin receptor,AVPR V2 </td>
+		</tr>
+		<tr>
+			<td> Pancreas Disease </td>
+			<td> O00203 </td>
+			<td> AP-3 complex subunit beta-1 </td>
+			<td> 1094 </td>
+			<td> Adaptor-related protein complex 3 subunit beta-1,Adaptor protein complex AP-3 subunit beta-1,Clathrin assembly protein complex 3 beta-1 large chain,Beta-3A-adaptin </td>
+		</tr>
+		<tr>
+			<td> Pancreas Disease </td>
+			<td> O14791 </td>
+			<td> Apolipoprotein L1 </td>
+			<td> 398 </td>
+			<td> Apolipoprotein L-I,Apolipoprotein L </td>
+		</tr>
+		<tr>
+			<td> Pancreas Disease </td>
+			<td> O15120 </td>
+			<td> 1-acyl-sn-glycerol-3-phosphate acyltransferas </td>
+			<td> 278 </td>
+			<td> 1-acylglycerol-3-phosphate O-acyltransferase 2,Lysophosphatidic acid acyltransferase beta </td>
+		</tr>
+		<tr>
+			<td> colon cancer </td>
+			<td> P16422 </td>
+			<td> Epithelial cell adhesion molecule </td>
+			<td> 314 </td>
+			<td>  </td>
+		</tr>
+		<tr>
+			<td> colon cancer </td>
+			<td> P31749 </td>
+			<td> RAC-alpha serine/threonine-protein kinase </td>
+			<td> 480 </td>
+			<td> Protein kinase B,RAC-PK-alpha,Protein kinase B alpha,Proto-oncogene c-Akt </td>
+		</tr>
+		<tr>
+			<td> colon cancer </td>
+			<td> P84996 </td>
+			<td> Protein ALEX </td>
+			<td> 626 </td>
+			<td>  </td>	
+		</tr>
+
+	</table>
+	</div>
+</body>
+</html>

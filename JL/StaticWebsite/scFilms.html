@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- scFilms.html 
+This is a comment. Comments are not displayed in the browser
+-->
+
+<html lang='en'>
+<head>
+    <meta charset="UTF-8" /> 
+    <title>
+        scFilms.html
+    </title>
+    <link rel="stylesheet" type="text/css" HREF="StyleSheets.css" >
+</head>
+<body style="background-image:url(home.gif);background-size:2000px; opacity:1.0">
+<div style="background-color:white; opacity:0.90;">
+<h1 style="line-height: 6.0em; font-size: 30px; text-align: center;"> <!-- heading -->
+	<span style="color:darkblue">
+	<span style="font-weight: bold;">
+	<span style="font-family: sacramento,cursive;">
+	<span style="font-size: 40px;">
+	<span style="line-height: 1.3em;">
+		Use Sakila Database
+	</span>
+	</span>
+	</span>
+	</span>
+	</span>
+
+		<button Type="button"  onclick="window.location.href='Bioinformationcsreport.html'">Go Back to Report Search Index</button>
+	</h1>
+
+	<br>
+	</div>
+	<br>
+	<hr>
+<div style="background-color:White;opacity:0.90;line-height: 2.0em; font-size: 20px; text-align:center;">
+	<form id="form2" action="" method="post">
+	<p> Get a list of films with the selected rating: </P>
+	<select style="margin-left:280px" name="rating">
+	  <option value="" selected disabled>Select a rating</option> 
+	  <option value="Pancreas Disease">Pancreas Disease</option>
+	  <option value="Diabetes">Diabetes</option>
+	  <option value="Colon Cancer">Colon Cancer</option>
+
+	</select>
+	<br>
+	<input type="submit" name="submit2" class="submit" value="Go" />
+	</form>
+	<hr>
+	<br>
+	<!--/* the class name is case sensitive.*/ -->
+	<table class="table1">
+	<!--table-->
+
+		<caption>
+			Three targeted diseases
+		</caption>
+		<!-- make the first row a column header row-->
+		<tr>
+			<th> Targeted_Disease </th>
+			<th> HGNC_ID </th>
+			<th> CHromosomal_Location </th>
+		</tr>
+		<tr>
+			<td> Pancreas Disease </td>
+			<td> 23 </td>
+			<td> 16p13.2 </td>
+		</tr>
+		<tr>
+			<td> Pancreas Disease </td>
+			<td> 33 </td>
+			<td> 16p13.3 </td>
+		</tr>
+		<tr>
+			<td> Pancreas Disease </td>
+			<td> 132 </td>
+			<td> 7p22 </td>
+		</tr>
+		<tr>
+			<td> Pancreas Disease </td>
+			<td> 174 </td>
+			<td> 3p22 </td>
+		</tr>
+		<tr>
+			<td> Diabetes </td>
+			<td> 59 </td>
+			<td> 11p15.1 </td>
+		</tr>
+		<tr>
+			<td> Diabetes </td>
+			<td> 634 </td>
+			<td> 12p12-q13 </td>
+		</tr>
+		<tr>
+			<td> Diabetes </td>
+			<td> 897 </td>
+			<td> Xq28 </td>
+		</tr>
+		<tr>
+			<td> Diabetes </td>
+			<td> 4195 </td>
+			<td> 7p15.3-p15.1 </td>
+		</tr>
+		<tr>
+			<td> Colon Cancer </td>
+			<td> 391 </td>
+			<td> 14q32.33 </td>
+		</tr>
+		<tr>
+			<td> Colon Cancer </td>
+			<td> 4392 </td>
+			<td> 20q13.2-q13.3 </td>
+		</tr>
+	</table>
+</body>
+</html>
