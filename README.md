@@ -2,8 +2,6 @@ dockerjingjing/bioinforweb
 
 =================
 
-Usage
------
 
 To create the image `dockerjingjing/bioinforweb`, execute the following command on the dockerjingjing/bioinforweb folder:
 
