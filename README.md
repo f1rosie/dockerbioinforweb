@@ -6,7 +6,7 @@ To create the image `dockerjingjing/bioinforweb`, execute the following command 
 
 	docker build -t dockerjingjing/bioinforweb .
 
-Running your dockerjingjing/bioinforweb docker image create docker container, and external prots 80 and 3306 in all interface to your container.
+Running your dockerjingjing/bioinforweb docker image create docker container, and external ports 80 and 3306 in all interface to your container.
 ------------------------------
 
 	docker run -d -p 80:80 -p 3306:3306 dockerjingjing/bioinforweb
